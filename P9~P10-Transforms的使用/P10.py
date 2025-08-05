@@ -5,8 +5,8 @@ dataset_transform = torchvision.transforms.Compose([
     torchvision.transforms.ToTensor()
 ])
 
-train_set = torchvision.datasets.CIFAR10(root="", train=True, transform=dataset_transform, download=True)
-test_set = torchvision.datasets.CIFAR10(root="./dataset", train=False, transform=dataset_transform, download=True)
+train_set = torchvision.datasets.CIFAR10(root="../data/dataset", train=True, transform=dataset_transform, download=True)
+test_set = torchvision.datasets.CIFAR10(root="../data/dataset", train=False, transform=dataset_transform, download=True)
 
 # print(test_set[0])
 # print(test_set.classes)
