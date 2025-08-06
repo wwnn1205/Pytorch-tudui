@@ -1,5 +1,5 @@
 from torch.utils.tensorboard import SummaryWriter
-import numpy as np
+import numpy_learn as np
 from PIL import Image
 
 writer = SummaryWriter("logs")
